@@ -11,7 +11,7 @@ The list is separated into Free and Paid and broken into subsections based on th
 ### Finance/Crypto
  - [Coinbase Market Data](https://docs.cloud.coinbase.com/exchange/docs/websocket-overview) - Coinbase websocket to market data including level 2 orderbook data.
  - [Blockchain transactions](https://www.blockchain.com/api/api_websocket) - Provides real-time notifications about new transactions and blocks.
- - [Yahoo Finance](wss://streamer.finance.yahoo.com/) - This is not advertised in developer documentation, but discoverable as the websocket is used to update their website.
+ - [Yahoo Finance](https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC)`wss://streamer.finance.yahoo.com/` - This is not advertised in developer documentation, but discoverable as the websocket is used to update their website.
  - [Finnhub](https://finnhub.io/docs/api/introduction) - Limited free usage with a premium data sources also available.
  - [CoinCheck](https://coincheck.com/documents/exchange/api#websocket) - a cryptocurrency API that has a WebSocket interface (in beta)
  - [Alpaca Markets](https://alpaca.markets/docs/market-data/) Real-Time and historical market data via HTTP and Websocket.

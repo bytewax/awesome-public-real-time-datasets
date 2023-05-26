@@ -30,6 +30,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [NOAA Buoy Data](https://www.ndbc.noaa.gov/data/realtime2/) - Real-time buoy data from NOAA
 - [NOAA Weather Data](https://www.weather.gov/documentation/services-web-api) - Live Weather Data API from NOAA
 - [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull uptodate data from redfin unofficial API.
+- [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
@@ -43,3 +44,6 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Transportation
 - [AIS Data](https://spire.com/developers/) Maritime, Aviation and weather data available via Spire. 
+
+### Information
+- [PurpleAir Air Quality Data](https://community.purpleair.com/t/new-api-dashboard/3981) - Developer API for accessing purple air sensor data.

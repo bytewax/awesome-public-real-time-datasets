@@ -32,6 +32,7 @@ The list is separated into Free and Paid and broken into subsections based on th
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
+- [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 
 ## Paid
 

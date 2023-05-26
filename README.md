@@ -4,7 +4,7 @@
 
 This list is inspired by [awesome public datasets](https://github.com/awesomedata/awesome-public-datasets), but for real-time datasets and sources. Normally accessed via HTTP or Websockets.
 
-The list is separated into Free and Paid and broken into subsections based on the type of data.
+The list is separated into Free and Paid and broken into subsections based on loose categories.
 
 ## Free
 

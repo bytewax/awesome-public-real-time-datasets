@@ -22,6 +22,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Open Sky Flight](https://openskynetwork.github.io/opensky-api/rest.html) - Data from Open Sky Api via HTTP endpoint. Supports real-time, but not streaming. Need to continually poll.
  - [MTA GTFS Feed](https://new.mta.info/developers) - Transit data in [GTFS format](https://developers.google.com/transit/gtfs-realtime/) for transit systems like NYC subway and Caltrain.
  - [NY 511 live camera data](https://511ny.org/cctv) - This live camera data requires some scraping to use. From this list of cameras you can then source the individual camera id and then request the timestamped image or most recent image by building the url like - `https://511ny.org/map/Cctv/<image-id-goes-here>`
+ - [Transport for London (TfL)](https://tfl.gov.uk/info-for/open-data-users/our-open-data) - live data about the tube, buses, and more
+ - [Norwegian Coastal Administration](https://www.kystverket.no/en/navigation-and-monitoring/ais/access-to-ais-data/) - AIS data from vessels within the Norwegian economic zone and the protection zones off Svalbard and Jan Mayen. 
 
 ### Information
 - [Wikimedia SSE](https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams) Event Stream of recent changes to the wikimedia foundation pages.

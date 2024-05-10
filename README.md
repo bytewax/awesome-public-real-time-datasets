@@ -36,7 +36,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull uptodate data from redfin unofficial API.
 - [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
-- [US Energy Grid Data](https://www.gridstatus.io/datasets)
+- [US Energy Grid Data](https://www.gridstatus.io/datasets) - Live grid data from US energy system operators
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.

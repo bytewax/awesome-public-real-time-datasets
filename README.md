@@ -41,6 +41,9 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 
+### IoT
+- [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API. 
+
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data

@@ -46,6 +46,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 - [Formula 1 Stats & Telemetry](https://github.com/theOehrly/Fast-F1) - Python package that provides an easy-to-use API into live and historical F1 data.
 - [International Space Station Live Data](https://iss-mimic.github.io/Mimic/) - More about the project on GitHub https://github.com/ISS-Mimic/Mimic
+- [Live Satellite Positions](https://www.n2yo.com/api/) - N2YO.COM allows tracking of satellites through REST API with the NORAD catalog number assigned by the United States Space Command
 
 ## Paid
 

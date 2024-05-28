@@ -14,7 +14,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Yahoo Finance](https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC)`wss://streamer.finance.yahoo.com/` - This is not advertised in developer documentation, but discoverable as the websocket is used to update their website.
  - [Finnhub](https://finnhub.io/docs/api/introduction) - Limited free usage with a premium data sources also available.
  - [CoinCheck](https://coincheck.com/documents/exchange/api#websocket) - a cryptocurrency API that has a WebSocket interface (in beta)
- - [Alpaca Markets](https://alpaca.markets/docs/market-data/) Real-Time and historical market data via HTTP and Websocket.
+ - [Alpaca Markets](https://alpaca.markets/docs/market-data) Real-Time and historical market data via HTTP and Websocket.
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.

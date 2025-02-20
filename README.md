@@ -15,6 +15,10 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Finnhub](https://finnhub.io/docs/api/introduction) - Limited free usage with a premium data sources also available.
  - [CoinCheck](https://coincheck.com/documents/exchange/api#websocket) - a cryptocurrency API that has a WebSocket interface (in beta)
  - [Alpaca Markets](https://alpaca.markets/docs/market-data/) Real-Time and historical market data via HTTP and Websocket.
+ - [SEC EDGAR](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) - The SEC offers real-time streaming access to regulatory filings (like 10-K, 10-Q, 8-K) as well as real-time XBRL financial data via RESTful APIs and RSS feeds.
+ - [Binance](https://developers.binance.com/docs/binance-spot-api-docs/web-socket-streams) - WebSocket API that delivers real-time cryptocurrency trading data and order book updates
+ - [OANDA](https://github.com/oanda/py-api-streaming) - HTTP based FOREX rates stream through the OANDA API. 
+
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
@@ -35,29 +39,41 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Clima Cell](https://docs.tomorrow.io/reference/realtime-weather) - Real-time weather data in a free or paid API.
 - [NOAA Buoy Data](https://www.ndbc.noaa.gov/data/realtime2/) - Real-time buoy data from NOAA
 - [NOAA Weather Data](https://www.weather.gov/documentation/services-web-api) - Live Weather Data API from NOAA
-- [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull uptodate data from redfin unofficial API.
+- [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull up to date data from redfin unofficial API.
 - [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 
 ### IoT
-- [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API. 
+- [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.
+
+### Cybersecurity
+- [Certstream](https://certstream.calidog.io) - Certstream provides a publicly accessible real‐time feed of certificate transparency logs, delivering live updates on SSL/TLS certificate issuance as it occurs.
+- [URLhaus](https://urlhaus.abuse.ch/api/) - Community-driven repository for real-time malicious URL data, offering actionable threat intelligence to block phishing and malware.
+- [CISA Automated Indicator Sharing (AIS)](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais) - US government-led service that enables public and private organizations to exchange machine-readable threat indicators in real time.
+- [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 - [Formula 1 Stats & Telemetry](https://github.com/theOehrly/Fast-F1) - Python package that provides an easy-to-use API into live and historical F1 data.
 - [International Space Station Live Data](https://iss-mimic.github.io/Mimic/) - More about the project on GitHub https://github.com/ISS-Mimic/Mimic
-- [Live Satellite Positions](https://www.n2yo.com/api/) - N2YO.COM allows tracking of satellites through REST API with the NORAD catalog number assigned by the United States Space Command
+- [Live Satellite Positions](https://www.n2yo.com/api/) - N2YO.COM allows tracking of satellites through REST API with the NORAD catalog number assigned by the United States Space Command.
+ 
 
 ## Paid
 
 ### Finance/Crypto
  - [IEX Trading](https://iextrading.com/developer/docs/) - IEX was created in response to questionable trading practices that had become widely used across traditional exhcanges! Their API provides streaming Stock market data.
- - [Twitter](https://developer.twitter.com/en/docs/tutorials/stream-tweets-in-real-time) - Twitter provides a streaming interface for research or enterprise. It is unknown what support will be post Twitter purchase in 2022.
  - [NYSE Cloud Streaming](https://www.nyse.com/data-products) - Provides real-time access to high-quality NYSE exchange data feeds, streaming directly in the cloud using Kafka format.
  - [Alpha Vantage Market News & Sentiment](https://www.alphavantage.co/documentation/) - Live market news & sentiment data from selected news outlets covering stocks, cryptocurrencies, forex, and a wide range of topics such as fiscal policy, mergers & acquisitions, IPOs, etc. 
+
+### Cybersecurity
+- [Kaspersky Threat Data Feeds](https://support.kaspersky.com/datafeeds) - Kaspersky Threat Data Feeds deliver continuously updated, real‐time threat intelligence by aggregating data from diverse sources.
+- [Bitdefender Threat Intelligence Feeds](https://www.bitdefender.com/en-us/oem/threat-intelligence-feeds-services) - A comprehensive suite of real-time, curated threat data streams that deliver actionable insights on malicious domains, IP addresses, URLs, file hashes, and vulnerabilities.
+- [ANY.RUN Threat Intelligence Feeds](https://any.run/cybersecurity-blog/threat-intelligence-feeds/) – Near real-time feeds generated from interactive malware sandbox sessions, providing deep insights into malware behaviors and associated indicators of compromise (IoCs).
+- [Deepinfo Data Feeds](https://docs.deepinfo.com/docs/getting-started) – Real-time updates on domain registrations, subdomain discoveries, and DNS changes accesible via REST-based web services.
 
 ### Transportation
 - [AIS Data](https://spire.com/developers/) Maritime, Aviation and weather data available via Spire. 
@@ -65,6 +81,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ### Information
 - [PurpleAir Air Quality Data](https://community.purpleair.com/t/new-api-dashboard/3981) - Developer API for accessing purple air sensor data.
 - [NewsAPI](https://newsapi.org/docs/get-started) - NewsAPI tracks headlines in 7 categories across over 50 countries, and at over a hundred top publications and blogs, in near real time. Free developer version with 24 delays available.
+-  - [Twitter](https://developer.twitter.com/en/docs/tutorials/stream-tweets-in-real-time) - Twitter provides a streaming interface for research or enterprise. It is unknown what support will be post Twitter purchase in 2022.
 
 ### Sports
 - [Sports Livescores](https://www.thesportsdb.com/docs_pricing) - Developer API of TheSportsDB that gives you access to livescores

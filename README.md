@@ -66,6 +66,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [International Space Station Live Data](https://iss-mimic.github.io/Mimic/) - More about the project on GitHub https://github.com/ISS-Mimic/Mimic
 - [Live Satellite Positions](https://www.n2yo.com/api/) - N2YO.COM allows tracking of satellites through REST API with the NORAD catalog number assigned by the United States Space Command.
 - [Hacker News](https://github.com/HackerNews/API) - Near real-time news feed from Hacker News for tech and startup-related topics.
+- [Bluesky](https://docs.bsky.app/docs/advanced-guides/firehose) - Firehose is an authenticated stream of events on the protocol that underlies Bluesky, enabling efficient syncing of user updates via a WebSocket connection.
 
 ## Paid
 
@@ -89,7 +90,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ### Information
 - [PurpleAir Air Quality Data](https://community.purpleair.com/t/new-api-dashboard/3981) - Developer API for accessing purple air sensor data.
 - [NewsAPI](https://newsapi.org/docs/get-started) - NewsAPI tracks headlines in 7 categories across over 50 countries, and at over a hundred top publications and blogs, in near real time. Free developer version with 24 delays available.
-- [Twitter](https://developer.twitter.com/en/docs/tutorials/stream-tweets-in-real-time) - Twitter provides a streaming interface for research or enterprise. It is unknown what support will be post Twitter purchase in 2022.
+- [X (Twitter)](https://developer.twitter.com/en/docs/tutorials/stream-tweets-in-real-time) - X provides a streaming interface for research or enterprise. 
 - [Bing News Search API](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api) - Bing News Search API returns fresh news results from various sources in near real time
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
 - [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousnads of news sites, blogs, and discussion forums.

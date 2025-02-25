@@ -71,6 +71,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ## Paid
 
 ### Finance/Crypto
+ - [Data Bento](https://databento.com/live) - Data Bento provides low-latency market data from many exchanges in several schemas. Access over Raw API, which uses a binary protocol over TCP, and our HTTP API. They also provide client libraries for Rust, Python, and C++.
  - [IEX Trading](https://iextrading.com/developer/docs/) - IEX was created in response to questionable trading practices that had become widely used across traditional exhcanges! Their API provides streaming Stock market data.
  - [NYSE Cloud Streaming](https://www.nyse.com/data-products) - Provides real-time access to high-quality NYSE exchange data feeds, streaming directly in the cloud using Kafka format.
  - [Alpha Vantage Market News & Sentiment](https://www.alphavantage.co/documentation/) - Live market news & sentiment data from selected news outlets covering stocks, cryptocurrencies, forex, and a wide range of topics such as fiscal policy, mergers & acquisitions, IPOs, etc.

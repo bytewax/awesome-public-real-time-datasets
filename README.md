@@ -25,6 +25,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
  - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
+ - 
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
@@ -53,7 +54,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
-- [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com. 
+- [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
+- [GDELT 2.0 Event Database](https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/) - Collection of all events happening everywhere in the world, with emotional valence estimation, realtime translations.
 
 ### IoT
 - [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.

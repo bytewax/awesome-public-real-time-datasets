@@ -51,6 +51,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull up to date data from redfin unofficial API.
 - [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
+- [ZipCheckup](https://zipcheckup.com/api) - Free REST API for ZIP-level environmental safety data across the US: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Covers 42,000+ ZIP codes. No API key required. CC BY 4.0.
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)

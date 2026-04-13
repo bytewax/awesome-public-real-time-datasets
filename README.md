@@ -25,7 +25,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
  - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
- - 
+ - [Helium](https://heliumtrades.com/mcp-page/) - Live stock, ETF, and crypto prices with AI analysis; real-time news from 5,000+ sources with bias scoring; trending topics and meme search via streamable HTTP MCP at `https://heliumtrades.com/mcp` and REST endpoints such as `/mcp_ticker/` and `/mcp_search/`. No authentication required for the first 50 queries. See [helium-mcp](https://github.com/connerlambden/helium-mcp) on GitHub.
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.

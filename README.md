@@ -24,6 +24,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [CoinPaprika](https://api.coinpaprika.com) - Free cryptocurrency market data API with real-time prices, OHLCV, and tickers for 7,000+ coins. No API key required.
  - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
  - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
+ - [Sharpe](https://www.sharpe.ai/docs/free-api) - Real-time crypto market data API covering funding, derivatives, arbitrage, narratives, listings, and news.
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
  - 
 

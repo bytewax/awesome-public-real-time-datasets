@@ -78,6 +78,9 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ### AI/ML
 - [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)
 
+### Sports
+- [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.
+
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data

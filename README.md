@@ -87,6 +87,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Hacker News](https://github.com/HackerNews/API) - Near real-time news feed from Hacker News for tech and startup-related topics.
 - [Bluesky](https://docs.bsky.app/docs/advanced-guides/firehose) - Firehose is an authenticated stream of events on the protocol that underlies Bluesky, enabling efficient syncing of user updates via a WebSocket connection.
 - [SpaceX API](https://github.com/r-spacex/SpaceX-API) - Open-source REST API for SpaceX launches, rockets, capsules, landing pads.
+- [OpenF1](https://openf1.org/) - Free and open-source API for real-time and historical Formula 1 data, including telemetry, lap timings, race control messages,  weather, pit stops, team radio, and standings
 
 ## Paid
 

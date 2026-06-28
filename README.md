@@ -16,6 +16,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [CoinCheck](https://coincheck.com/documents/exchange/api#websocket) - a cryptocurrency API that has a WebSocket interface (in beta)
  - [Alpaca Markets](https://alpaca.markets/docs/market-data/) Real-Time and historical market data via HTTP and Websocket.
  - [SEC EDGAR](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) - The SEC offers real-time streaming access to regulatory filings (like 10-K, 10-Q, 8-K) as well as real-time XBRL financial data via RESTful APIs and RSS feeds.
+ - [FilingFirehose](https://filingfirehose.com) - Real-time parsed SEC EDGAR filings via REST. Body-text-classified 8-Ks (catches buried cyber and officer-departure events), activist-tagged Schedule 13D/G, ATM-offering detection in S-3 / 424B5. Free public tier covers last 72h, no API key.
  - [Binance](https://developers.binance.com/docs/binance-spot-api-docs/web-socket-streams) - WebSocket API that delivers real-time cryptocurrency trading data and order book updates
  - [OANDA](https://github.com/oanda/py-api-streaming) - HTTP based FOREX rates stream through the OANDA API.
  - [CoinCap](https://docs.coincap.io) - Provides real-time pricing and market activity for over 1,000 cryptocurrencies

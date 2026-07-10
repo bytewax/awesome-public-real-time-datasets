@@ -25,6 +25,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
  - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
+ - [OpenChainBench](https://openchainbench.com) - Open benchmarks of crypto infrastructure (RPC providers, bridges, oracles, L1 finality, prediction-market data, Hyperliquid builders) refreshed every minute via a JSON feed, with daily Parquet snapshots on [Hugging Face](https://huggingface.co/datasets/OpenChainBench/benchmarks) (CC-BY-4.0) archived on Zenodo. [[DOI]](https://doi.org/10.5281/zenodo.20800311)
  - 
 
 ### Transportation

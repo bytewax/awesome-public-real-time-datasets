@@ -59,6 +59,9 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
 - [GDELT 2.0 Event Database](https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/) - Collection of all events happening everywhere in the world, with emotional valence estimation, realtime translations.
 
+### Health
+- [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.
+
 ### IoT
 - [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.
 - [Sensor.Community](https://sensor.community/en/) - 15,000+ air quality sensors worldwide, REST API.

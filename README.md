@@ -89,6 +89,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.
 
 ### Other
+- **[US National Parks Live Status (Park Atlas)](https://theparkatlas.com/)** - Live alerts, entrance fees, reservation requirements, webcams, and conditions for all 474 US National Park System units, aggregated nightly from official federal APIs. Bulk CSV snapshots: [park-atlas-data](https://github.com/kirkwood-justin/park-atlas-data). No key required.
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 - [Formula 1 Stats & Telemetry](https://github.com/theOehrly/Fast-F1) - Python package that provides an easy-to-use API into live and historical F1 data.

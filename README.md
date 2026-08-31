@@ -43,6 +43,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Swiss Traffic & Public Transport Data](https://opentransportdata.swiss/en/group/api-group) - Various real-time transport data from Switzerland such road traffic, status of EV charging stations, shared mobility services and live arrivals/departures of public transport
  - [Transport for NSW API](https://api.nsw.gov.au/ProductCatalogue?apiCategoryId=2) - Real‑time public transport data (buses, trains, ferries) available for New South Wales, Australia
  - [Ireland National Transport Authority](https://developer.nationaltransport.ie/api-details#api=gtfsr&operation=gtfsr-v2) -  Real-time update stream for services provided by Dublin Bus, Bus Éireann, and Go-Ahead Ireland.
+ - [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) - Live US state DOT traffic camera data as JSON: cameras by state or mountain pass with verified live status from rolling HTTP checks, plus measured per-state camera uptime. No auth.
 
 ### Information
 - [Wikimedia SSE](https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams) Event Stream of recent changes to the wikimedia foundation pages.

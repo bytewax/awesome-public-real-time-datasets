@@ -29,7 +29,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
  - [OpenChainBench](https://openchainbench.com) - Open benchmarks of crypto infrastructure (RPC providers, bridges, oracles, L1 finality, prediction-market data, Hyperliquid builders) refreshed every minute via a JSON feed, with daily Parquet snapshots on [Hugging Face](https://huggingface.co/datasets/OpenChainBench/benchmarks) (CC-BY-4.0) archived on Zenodo. [[DOI]](https://doi.org/10.5281/zenodo.20800311)
  - [Eulerpool](https://eulerpool.com/developers/streaming) - Streaming stock quotes (trades, NBBO, 1-second bars, L2) over WebSocket `wss://stream.eulerpool.com/v1/subscribe` and SSE, plus a REST API for fundamentals, ETFs, macro, crypto and FX. Free keys receive delayed 1-second aggregates; paid keys get live ticks.
- - 
+ - [Adanos](https://adanos.org/) - Near-real-time stock and crypto sentiment from Reddit, X, financial news, and Polymarket via REST, with a free API tier.
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
@@ -57,6 +57,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
 - [ZipCheckup](https://zipcheckup.com/api) - Free REST API for ZIP-level environmental safety data across the US: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Covers 42,000+ ZIP codes. No API key required. CC BY 4.0.
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
+- [DC Hub Grid Prices](https://dchub.cloud/api-docs) - Free, no-key REST endpoint (`https://api.dchub.cloud/api/v1/lmp/prices`) returning live 5-minute real-time LMPs for CAISO, ERCOT, MISO, NYISO, PJM and SPP, with per-hub detail at `/api/v1/iso-lmp/snapshot`. Part of DC Hub, the live data layer for data-center site selection; the same data is available to AI agents over MCP at https://dchub.cloud/mcp.
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
@@ -71,6 +72,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Cybersecurity
 - [Certstream](https://certstream.calidog.io) - Certstream provides a publicly accessible real‐time feed of certificate transparency logs, delivering live updates on SSL/TLS certificate issuance as it occurs.
+- [Free CertStream API](https://certstream.dev/free-certstream-api.html) - Free hosted WebSocket stream of newly issued TLS certificates and their domain names from Certificate Transparency logs, at `wss://api.certstream.dev/`. No API key required.
 - [URLhaus](https://urlhaus.abuse.ch/api/) - Community-driven repository for real-time malicious URL data, offering actionable threat intelligence to block phishing and malware.
 - [CISA Automated Indicator Sharing (AIS)](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais) - US government-led service that enables public and private organizations to exchange machine-readable threat indicators in real time.
 - [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.
@@ -127,7 +129,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - REST and MCP access for X/Twitter search, profiles, followers, monitors, webhooks, and bulk extraction workflows.
 - [Bing News Search API](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api) - Bing News Search API returns fresh news results from various sources in near real time
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
-- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousnads of news sites, blogs, and discussion forums.
+- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
 
 

@@ -70,6 +70,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Cybersecurity
 - [Certstream](https://certstream.calidog.io) - Certstream provides a publicly accessible real‐time feed of certificate transparency logs, delivering live updates on SSL/TLS certificate issuance as it occurs.
+- [Free CertStream API](https://certstream.dev/free-certstream-api.html) - Free hosted WebSocket stream of newly issued TLS certificates and their domain names from Certificate Transparency logs, at `wss://api.certstream.dev/`. No API key required.
 - [URLhaus](https://urlhaus.abuse.ch/api/) - Community-driven repository for real-time malicious URL data, offering actionable threat intelligence to block phishing and malware.
 - [CISA Automated Indicator Sharing (AIS)](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais) - US government-led service that enables public and private organizations to exchange machine-readable threat indicators in real time.
 - [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.

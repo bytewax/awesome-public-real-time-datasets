@@ -68,6 +68,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
 - [GDELT 2.0 Event Database](https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/) - Collection of all events happening everywhere in the world, with emotional valence estimation, realtime translations.
+- [Jobven](https://jobven.com/docs/getting-started) - Job postings read directly from employer career pages and applicant tracking systems, with webhook events when a role opens, changes or closes. Free tier of 300 jobs a month, and one sample endpoint needs no key.
 - [CrustAPI](https://crustapi.com) - Live Google News, web search and Maps results as structured JSON, fetched on every request. Free tier of 3,000 credits per month, no credit card.
 - [LottoLens PH PCSO Draw Results](https://lottolensph.com/api/draws/latest) - Free, no-key JSON feed of independently compiled Philippine PCSO draw results, refreshed after scheduled draws are source-verified. Poll over HTTP; records include draw date, draw time, and source URL.
 

@@ -102,6 +102,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Live Tennis API](https://livetennisapi.com/) - Live match state for ATP, WTA, Challenger and ITF over REST: sets, games, points, who is serving and tiebreak flag, plus fixtures and results. Free tier requires a key but no card (30 requests/minute, 100/day); the WebSocket push feed is a paid tier. Open studies dataset (CC BY 4.0) at https://livetennisapi.com/open-tennis-data
 
 ### Other
+- **[US National Parks Live Status (Park Atlas)](https://theparkatlas.com/)** - Live alerts, entrance fees, reservation requirements, webcams, and conditions for all 474 US National Park System units, aggregated nightly from official federal APIs. Bulk CSV snapshots: [park-atlas-data](https://github.com/kirkwood-justin/park-atlas-data). No key required.
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 - [Formula 1 Stats & Telemetry](https://github.com/theOehrly/Fast-F1) - Python package that provides an easy-to-use API into live and historical F1 data.

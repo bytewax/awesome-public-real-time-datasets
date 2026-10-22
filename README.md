@@ -56,6 +56,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
 - [ZipCheckup](https://zipcheckup.com/api) - Free REST API for ZIP-level environmental safety data across the US: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Covers 42,000+ ZIP codes. No API key required. CC BY 4.0.
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
+- [DC Hub Grid Prices](https://dchub.cloud/api-docs) - Free, no-key REST endpoint (`https://api.dchub.cloud/api/v1/lmp/prices`) returning live 5-minute real-time LMPs for CAISO, ERCOT, MISO, NYISO, PJM and SPP, with per-hub detail at `/api/v1/iso-lmp/snapshot`. Part of DC Hub, the live data layer for data-center site selection; the same data is available to AI agents over MCP at https://dchub.cloud/mcp.
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.

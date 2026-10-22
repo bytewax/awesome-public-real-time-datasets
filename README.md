@@ -22,15 +22,18 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [CoinCap](https://docs.coincap.io) - Provides real-time pricing and market activity for over 1,000 cryptocurrencies
  - [Polygon.io](https://polygon.io/docs/stocks/getting-started) - Provides real‑time stock market and cryptocurrency data from all US exchanges via REST and WebSocket endpoints.
  - [FinancialData.Net](https://financialdata.net/documentation) - Stock market data, financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more.
- - [CoinPaprika](https://api.coinpaprika.com) - Free cryptocurrency market data API with real-time prices, OHLCV, and tickers for 7,000+ coins. No API key required.
- - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
+ - [CoinPaprika](https://api.coinpaprika.com) - Cryptocurrency market data API with real-time prices, OHLCV, and tickers for 12,000+ coins. Free tier, no API key required.
+ - [DexPaprika](https://api.dexpaprika.com) - DEX data API with pool data, token prices, OHLCV, trade history, and SSE streaming across 36 chains. Free tier, no signup to start, data delayed up to 15s.
  - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
  - [Sharpe](https://www.sharpe.ai/docs/free-api) - Real-time crypto market data API covering funding, derivatives, arbitrage, narratives, listings, and news.
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
  - [OpenChainBench](https://openchainbench.com) - Open benchmarks of crypto infrastructure (RPC providers, bridges, oracles, L1 finality, prediction-market data, Hyperliquid builders) refreshed every minute via a JSON feed, with daily Parquet snapshots on [Hugging Face](https://huggingface.co/datasets/OpenChainBench/benchmarks) (CC-BY-4.0) archived on Zenodo. [[DOI]](https://doi.org/10.5281/zenodo.20800311)
  - [0xArchive](https://www.0xarchive.io/) - Real-time Hyperliquid and Lighter market data via REST and WebSocket, with historical data also available. Permanent no-card free tier.
+ - [Eulerpool](https://eulerpool.com/developers/streaming) - Streaming stock quotes (trades, NBBO, 1-second bars, L2) over WebSocket `wss://stream.eulerpool.com/v1/subscribe` and SSE, plus a REST API for fundamentals, ETFs, macro, crypto and FX. Free keys receive delayed 1-second aggregates; paid keys get live ticks.
+ - [Adanos](https://adanos.org/) - Near-real-time stock and crypto sentiment from Reddit, X, financial news, and Polymarket via REST, with a free API tier.
 
 ### Transportation
+ - [ADSBiq](https://adsbiq.com/api/other/websocket?utm_source=awesome-realtime-datasets&utm_medium=directory&utm_campaign=developer_ecosystem&utm_content=websocket) - Community-powered real-time aircraft positions over WebSocket. Sends an initial snapshot followed by sequence-numbered deltas, with optional geographic subscriptions; free access requires no API key.
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
  - [GBFS New York](http://gbfs.citibikenyc.com/gbfs/gbfs.json) - GBFS is the standard for bike share data with many locations around the world. Find more information [here](https://github.com/MobilityData/gbfs/blob/master/gbfs.md)
  - [Open Sky Flight](https://openskynetwork.github.io/opensky-api/rest.html) - Data from Open Sky Api via HTTP endpoint. Supports real-time, but not streaming. Need to continually poll.
@@ -43,6 +46,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Swiss Traffic & Public Transport Data](https://opentransportdata.swiss/en/group/api-group) - Various real-time transport data from Switzerland such road traffic, status of EV charging stations, shared mobility services and live arrivals/departures of public transport
  - [Transport for NSW API](https://api.nsw.gov.au/ProductCatalogue?apiCategoryId=2) - Real‑time public transport data (buses, trains, ferries) available for New South Wales, Australia
  - [Ireland National Transport Authority](https://developer.nationaltransport.ie/api-details#api=gtfsr&operation=gtfsr-v2) -  Real-time update stream for services provided by Dublin Bus, Bus Éireann, and Go-Ahead Ireland.
+ - [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) - Live US state DOT traffic camera data as JSON: cameras by state or mountain pass with verified live status from rolling HTTP checks, plus measured per-state camera uptime. No auth.
 
 ### Information
 - [Wikimedia SSE](https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams) Event Stream of recent changes to the wikimedia foundation pages.
@@ -51,18 +55,23 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Clima Cell](https://docs.tomorrow.io/reference/realtime-weather) - Real-time weather data in a free or paid API.
 - [NOAA Buoy Data](https://www.ndbc.noaa.gov/data/realtime2/) - Real-time buoy data from NOAA
 - [NOAA Weather Data](https://www.weather.gov/documentation/services-web-api) - Live Weather Data API from NOAA
+- [ENSO Historical Dataset](https://github.com/dayu2333-jinyul/enso-historical-data) - Monthly ENSO data (1950-2026), 126 records with ONI/SOI/subsurface anomalies, CSV+JSON, CC0.
+- [ENSO Tracker Dashboard](https://elninoguide.com/dashboard) - Real-time El Niño/La Niña monitoring. ONI, SOI, trade winds, and subsurface temps from NOAA/BOM/ECMWF, updated daily.
 - [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull up to date data from redfin unofficial API.
 - [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.
 - [ZipCheckup](https://zipcheckup.com/api) - Free REST API for ZIP-level environmental safety data across the US: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Covers 42,000+ ZIP codes. No API key required. CC BY 4.0.
 - [US Energy Grid Data](https://www.gridstatus.io/datasets) - Real-time grid information for the US energy grid
+- [DC Hub Grid Prices](https://dchub.cloud/api-docs) - Free, no-key REST endpoint (`https://api.dchub.cloud/api/v1/lmp/prices`) returning live 5-minute real-time LMPs for CAISO, ERCOT, MISO, NYISO, PJM and SPP, with per-hub detail at `/api/v1/iso-lmp/snapshot`. Part of DC Hub, the live data layer for data-center site selection; the same data is available to AI agents over MCP at https://dchub.cloud/mcp.
 - [USGS Earthquake Real-time Feed](https://earthquake.usgs.gov/fdsnws/event/1/) - Live seismological data feed to know about earthquakes as they happen
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
 - [GDELT 2.0 Event Database](https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/) - Collection of all events happening everywhere in the world, with emotional valence estimation, realtime translations.
+- [LottoLens PH PCSO Draw Results](https://lottolensph.com/api/draws/latest) - Free, no-key JSON feed of independently compiled Philippine PCSO draw results, refreshed after scheduled draws are source-verified. Poll over HTTP; records include draw date, draw time, and source URL.
 
 ### Health
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.
+- [AlertX Outbreak Signal Clusters](https://alertx.enclai.net/developers) - Clusters of outbreak-shaped public health signals worldwide, rebuilt hourly, with syndrome and disease triage, confidence scores, and whether an official health authority later confirmed the event. Free JSON over HTTP, no API key required; aggregated to WHO region.
 
 ### IoT
 - [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.
@@ -70,6 +79,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Cybersecurity
 - [Certstream](https://certstream.calidog.io) - Certstream provides a publicly accessible real‐time feed of certificate transparency logs, delivering live updates on SSL/TLS certificate issuance as it occurs.
+- [Free CertStream API](https://certstream.dev/free-certstream-api.html) - Free hosted WebSocket stream of newly issued TLS certificates and their domain names from Certificate Transparency logs, at `wss://api.certstream.dev/`. No API key required.
 - [URLhaus](https://urlhaus.abuse.ch/api/) - Community-driven repository for real-time malicious URL data, offering actionable threat intelligence to block phishing and malware.
 - [CISA Automated Indicator Sharing (AIS)](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais) - US government-led service that enables public and private organizations to exchange machine-readable threat indicators in real time.
 - [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.
@@ -87,6 +97,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.
+- [Live Tennis API](https://livetennisapi.com/) - Live match state for ATP, WTA, Challenger and ITF over REST: sets, games, points, who is serving and tiebreak flag, plus fixtures and results. Free tier requires a key but no card (30 requests/minute, 100/day); the WebSocket push feed is a paid tier. Open studies dataset (CC BY 4.0) at https://livetennisapi.com/open-tennis-data
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
@@ -126,10 +137,11 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - REST and MCP access for X/Twitter search, profiles, followers, monitors, webhooks, and bulk extraction workflows.
 - [Bing News Search API](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api) - Bing News Search API returns fresh news results from various sources in near real time
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
-- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousnads of news sites, blogs, and discussion forums.
+- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
 
 
 ### Sports
 - [Sports Livescores](https://www.thesportsdb.com/docs_pricing) - Developer API of TheSportsDB that gives you access to livescores
 - [Sportradar Sports Data](https://sportradar.com/media-tech/data-content/sports-data-api/) - Global live data of 80 sports, 500 sport leagues and 750k events a year (free 30 day trial available)
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.

@@ -100,6 +100,12 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ### Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.
 - [Live Tennis API](https://livetennisapi.com/) - Live match state for ATP, WTA, Challenger and ITF over REST: sets, games, points, who is serving and tiebreak flag, plus fixtures and results. Free tier requires a key but no card (30 requests/minute, 100/day); the WebSocket push feed is a paid tier. Open studies dataset (CC BY 4.0) at https://livetennisapi.com/open-tennis-data
+- [Lichess TV Feed](https://lichess.org/api#tag/TV) - Live chess games streamed as NDJSON (`https://lichess.org/api/tv/feed`) or SSE, per channel (blitz, bullet, rapid, etc.). No authentication. Full game history available under CC0 at database.lichess.org.
+- [MLB Stats API](https://github.com/toddrob99/MLB-StatsAPI/wiki/Endpoints) - Unofficial access to MLB's live game feed with pitch-by-pitch play data (`statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live`), plus a diffPatch endpoint for incremental updates. No key.
+- [NHL Web API](https://github.com/Zmalski/NHL-API-Reference) - Undocumented JSON API behind NHL.com (`api-web.nhle.com/v1`) for live scores, schedules and play-by-play. No key; endpoints may change between seasons.
+- [football-data.org](https://www.football-data.org/) - REST API for fixtures, results and standings across 12 major football competitions on a permanent free tier (10 calls/min, delayed scores); live scores on paid tiers.
+- [Betfair Exchange Stream API](https://developer.betfair.com/exchange-api/) - Push-based stream of betting exchange prices across football, tennis, horse racing and more. Free delayed key for development; requires a Betfair account.
+- [The Odds API](https://the-odds-api.com/) - Live and upcoming odds from multiple bookmakers across many sports via REST. Free tier of 500 requests per month.
 
 ### Other
 - [US National Parks Live Status (Park Atlas)](https://theparkatlas.com/) - Live alerts, entrance fees, reservation requirements, webcams, and conditions for all 474 US National Park System units, aggregated nightly from official federal APIs. Bulk CSV snapshots: [park-atlas-data](https://github.com/kirkwood-justin/park-atlas-data). No key required.

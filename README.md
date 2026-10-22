@@ -52,6 +52,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Clima Cell](https://docs.tomorrow.io/reference/realtime-weather) - Real-time weather data in a free or paid API.
 - [NOAA Buoy Data](https://www.ndbc.noaa.gov/data/realtime2/) - Real-time buoy data from NOAA
 - [NOAA Weather Data](https://www.weather.gov/documentation/services-web-api) - Live Weather Data API from NOAA
+- [ENSO Historical Dataset](https://github.com/dayu2333-jinyul/enso-historical-data) - Monthly ENSO data (1950-2026), 126 records with ONI/SOI/subsurface anomalies, CSV+JSON, CC0.
+- [ENSO Tracker Dashboard](https://elninoguide.com/dashboard) - Real-time El Niño/La Niña monitoring. ONI, SOI, trade winds, and subsurface temps from NOAA/BOM/ECMWF, updated daily.
 - [Redfin Realestate](https://github.com/ryansherby/RedfinScraper) - pull up to date data from redfin unofficial API.
 - [EPA Airnow data](https://docs.airnowapi.org/) - Air quality data hosted by the EPA.
 - [UK Flood Data](https://environment.data.gov.uk/flood-monitoring/doc/reference) - UK government real-time API for flood data.

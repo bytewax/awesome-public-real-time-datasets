@@ -29,6 +29,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
  - [OpenChainBench](https://openchainbench.com) - Open benchmarks of crypto infrastructure (RPC providers, bridges, oracles, L1 finality, prediction-market data, Hyperliquid builders) refreshed every minute via a JSON feed, with daily Parquet snapshots on [Hugging Face](https://huggingface.co/datasets/OpenChainBench/benchmarks) (CC-BY-4.0) archived on Zenodo. [[DOI]](https://doi.org/10.5281/zenodo.20800311)
  - [Korean Market Data](https://github.com/james-brand/korea-market-data) - Daily foreign and institutional net flows for every KOSPI/KOSDAQ common stock (2,555 names) plus all 44 KRX sector indices, rebuilt after each Korean market close. English CSV/JSON over raw HTTP, no key. CC BY 4.0, archived on Zenodo [[DOI]](https://doi.org/10.5281/zenodo.21833374).
+ - [0xArchive](https://www.0xarchive.io/) - Real-time Hyperliquid and Lighter market data via REST and WebSocket, with historical data also available. Permanent no-card free tier.
  - [Eulerpool](https://eulerpool.com/developers/streaming) - Streaming stock quotes (trades, NBBO, 1-second bars, L2) over WebSocket `wss://stream.eulerpool.com/v1/subscribe` and SSE, plus a REST API for fundamentals, ETFs, macro, crypto and FX. Free keys receive delayed 1-second aggregates; paid keys get live ticks.
  - [Adanos](https://adanos.org/) - Near-real-time stock and crypto sentiment from Reddit, X, financial news, and Polymarket via REST, with a free API tier.
 
@@ -40,12 +41,13 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [Open Glider Network](http://wiki.glidernet.org/) - The OGN provides real-time traffic for gliders and other light aircraft. You can use an OGN client like [python-ogn-client](https://github.com/glidernet/python-ogn-client) to connect to OGN servers, parse the APRS messages and push them to a broker like Kafka for streaming processing. 
  - [MTA GTFS Feed](https://new.mta.info/developers) - Transit data in [GTFS format](https://developers.google.com/transit/gtfs-realtime/) for transit systems like NYC subway and Caltrain.
  - [NY 511 live camera data](https://511ny.org/cctv) - This live camera data requires some scraping to use. From this list of cameras you can then source the individual camera id and then request the timestamped image or most recent image by building the url like - `https://511ny.org/map/Cctv/<image-id-goes-here>`
- - [Transport for London (TfL)](https://tfl.gov.uk/info-for/open-data-users/our-open-data) - live data about the tube, buses, and more
+ - [Transport for London (TfL)](https://tfl.gov.uk/info-for-open-data-users/our-open-data) - live data about the tube, buses, and more
  - [Norwegian Coastal Administration](https://www.kystverket.no/en/navigation-and-monitoring/ais/access-to-ais-data/) - AIS data from vessels within the Norwegian economic zone and the protection zones off Svalbard and Jan Mayen. (https://www.kystverket.no/en/sea-transport-and-ports/ais/access-to-ais-data/) 
  - [German Traffic Data](https://mobilithek.info/offers?categories=%5B%22https%3A%2F%2Fw3id.org%2Fmdp%2Fschema%2Fdata_categories%23REALTIME_TRAFFIC_DATA%22%5D) - German real-time traffic information
  - [Swiss Traffic & Public Transport Data](https://opentransportdata.swiss/en/group/api-group) - Various real-time transport data from Switzerland such road traffic, status of EV charging stations, shared mobility services and live arrivals/departures of public transport
  - [Transport for NSW API](https://api.nsw.gov.au/ProductCatalogue?apiCategoryId=2) - Real‑time public transport data (buses, trains, ferries) available for New South Wales, Australia
  - [Ireland National Transport Authority](https://developer.nationaltransport.ie/api-details#api=gtfsr&operation=gtfsr-v2) -  Real-time update stream for services provided by Dublin Bus, Bus Éireann, and Go-Ahead Ireland.
+ - [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) - Live US state DOT traffic camera data as JSON: cameras by state or mountain pass with verified live status from rolling HTTP checks, plus measured per-state camera uptime. No auth.
 
 ### Information
 - [Wikimedia SSE](https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams) Event Stream of recent changes to the wikimedia foundation pages.
@@ -66,10 +68,12 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [News API](https://newsapi.org) - Aggregator that pulls headlines and articles from dozens of news outlets worldwide in near real time via API. It offers a free tier (with rate limits)
 - [New York Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) - The Times Newswire API provides an up-to-the-minute stream of articles published on NYTimes.com.
 - [GDELT 2.0 Event Database](https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/) - Collection of all events happening everywhere in the world, with emotional valence estimation, realtime translations.
+- [CrustAPI](https://crustapi.com) - Live Google News, web search and Maps results as structured JSON, fetched on every request. Free tier of 3,000 credits per month, no credit card.
 - [LottoLens PH PCSO Draw Results](https://lottolensph.com/api/draws/latest) - Free, no-key JSON feed of independently compiled Philippine PCSO draw results, refreshed after scheduled draws are source-verified. Poll over HTTP; records include draw date, draw time, and source URL.
 
 ### Health
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.
+- [Urgences Québec](https://sante.handled.tools/api) - Live stretcher occupancy and waiting-room counts for every emergency room in Quebec, refreshed from the ministry feed every 15 minutes. JSON over HTTP with no API key needed, and there's an hourly history endpoint per hospital back to August 2026.
 - [AlertX Outbreak Signal Clusters](https://alertx.enclai.net/developers) - Clusters of outbreak-shaped public health signals worldwide, rebuilt hourly, with syndrome and disease triage, confidence scores, and whether an official health authority later confirmed the event. Free JSON over HTTP, no API key required; aggregated to WHO region.
 
 ### IoT
@@ -99,6 +103,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Live Tennis API](https://livetennisapi.com/) - Live match state for ATP, WTA, Challenger and ITF over REST: sets, games, points, who is serving and tiebreak flag, plus fixtures and results. Free tier requires a key but no card (30 requests/minute, 100/day); the WebSocket push feed is a paid tier. Open studies dataset (CC BY 4.0) at https://livetennisapi.com/open-tennis-data
 
 ### Other
+- **[US National Parks Live Status (Park Atlas)](https://theparkatlas.com/)** - Live alerts, entrance fees, reservation requirements, webcams, and conditions for all 474 US National Park System units, aggregated nightly from official federal APIs. Bulk CSV snapshots: [park-atlas-data](https://github.com/kirkwood-justin/park-atlas-data). No key required.
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
 - [Formula 1 Stats & Telemetry](https://github.com/theOehrly/Fast-F1) - Python package that provides an easy-to-use API into live and historical F1 data.

@@ -70,6 +70,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Health
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.
+- [Urgences Québec](https://sante.handled.tools/api) - Live stretcher occupancy and waiting-room counts for every emergency room in Quebec, refreshed from the ministry feed every 15 minutes. JSON over HTTP with no API key needed, and there's an hourly history endpoint per hospital back to August 2026.
 - [AlertX Outbreak Signal Clusters](https://alertx.enclai.net/developers) - Clusters of outbreak-shaped public health signals worldwide, rebuilt hourly, with syndrome and disease triage, confidence scores, and whether an official health authority later confirmed the event. Free JSON over HTTP, no API key required; aggregated to WHO region.
 
 ### IoT

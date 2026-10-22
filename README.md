@@ -128,7 +128,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - REST and MCP access for X/Twitter search, profiles, followers, monitors, webhooks, and bulk extraction workflows.
 - [Bing News Search API](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api) - Bing News Search API returns fresh news results from various sources in near real time
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
-- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousnads of news sites, blogs, and discussion forums.
+- [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
 
 

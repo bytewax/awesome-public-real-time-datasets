@@ -68,6 +68,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Health
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.
+- [AlertX Outbreak Signal Clusters](https://alertx.enclai.net/developers) - Clusters of outbreak-shaped public health signals worldwide, rebuilt hourly, with syndrome and disease triage, confidence scores, and whether an official health authority later confirmed the event. Free JSON over HTTP, no API key required; aggregated to WHO region.
 
 ### IoT
 - [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.

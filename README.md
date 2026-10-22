@@ -32,6 +32,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - 
 
 ### Transportation
+ - [ADSBiq](https://adsbiq.com/api/other/websocket?utm_source=awesome-realtime-datasets&utm_medium=directory&utm_campaign=developer_ecosystem&utm_content=websocket) - Community-powered real-time aircraft positions over WebSocket. Sends an initial snapshot followed by sequence-numbered deltas, with optional geographic subscriptions; free access requires no API key.
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
  - [GBFS New York](http://gbfs.citibikenyc.com/gbfs/gbfs.json) - GBFS is the standard for bike share data with many locations around the world. Find more information [here](https://github.com/MobilityData/gbfs/blob/master/gbfs.md)
  - [Open Sky Flight](https://openskynetwork.github.io/opensky-api/rest.html) - Data from Open Sky Api via HTTP endpoint. Supports real-time, but not streaming. Need to continually poll.

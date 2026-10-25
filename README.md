@@ -90,6 +90,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.
 - [Shodan Streaming API](https://developer.shodan.io/api/stream) - Real-time feed of devices/banners discovered on the internet. Free tier available.
 - [GreyNoise Community API](https://docs.greynoise.io/reference/community-api) - Free IP intelligence lookups for identifying mass scanners and background noise on the internet.
+- [Proxmint Free Proxy List](https://proxmint.com/free-proxies) - Open HTTP, HTTPS, SOCKS4 and SOCKS5 proxies, each re-tested every 30 minutes with a real request through it; dead entries are dropped. JSON and plain-text API (`https://proxmint.com/api/free-proxies?protocol=socks5&format=txt`) with country, protocol and anonymity filters, CORS open, no key, 60 requests/min. Mirrored as txt and JSON in [proxmint/free-proxy-list](https://github.com/proxmint/free-proxy-list), auto-committed each run. CC BY 4.0.
 
 ### Development & Testing
 - [Lenses Datagen](https://github.com/lensesio/datagen) - Open-source (Apache 2.0) synthetic streaming data generator by Lenses.io. Publishes to Kafka, Pulsar, or any target system. Ships with rich built-in datasets including sea vessel position reports (AIS), NYC taxi trips, telecom Italia network data, IoT device temperature readings, and more.

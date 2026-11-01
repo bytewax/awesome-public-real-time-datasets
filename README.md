@@ -33,6 +33,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [0xArchive](https://www.0xarchive.io/) - Real-time Hyperliquid and Lighter market data via REST and WebSocket, with historical data also available. Permanent no-card free tier.
  - [Eulerpool](https://eulerpool.com/developers/streaming) - Streaming stock quotes (trades, NBBO, 1-second bars, L2) over WebSocket `wss://stream.eulerpool.com/v1/subscribe` and SSE, plus a REST API for fundamentals, ETFs, macro, crypto and FX. Free keys receive delayed 1-second aggregates; paid keys get live ticks.
  - [Adanos](https://adanos.org/) - Near-real-time stock and crypto sentiment from Reddit, X, financial news, and Polymarket via REST, with a free API tier.
+ - [xAxios Market Stream](https://xaxios.com/docs/stream) - Free public WebSocket with live token prices, market caps, trades, new token launches and graduations on Solana and Robinhood Chain. No API key required.
 
 ### Transportation
  - [ADSBiq](https://adsbiq.com/api/other/websocket?utm_source=awesome-realtime-datasets&utm_medium=directory&utm_campaign=developer_ecosystem&utm_content=websocket) - Community-powered real-time aircraft positions over WebSocket. Sends an initial snapshot followed by sequence-numbered deltas, with optional geographic subscriptions; free access requires no API key.

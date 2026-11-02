@@ -141,6 +141,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [AIS Data](https://spire.com/developers/) Maritime, Aviation and weather data available via Spire.
 - [FlightAware Firehose](https://www.flightaware.com/commercial/firehose/) - Real-time data feed of global aircraft ADS-B positions and flight status.
 - [Spire Data Services](https://documentation.spire.com) - Global maritime vessel tracking, combining Satellite automatic identification systems (AIS), Terrestrial AIS, and Dynamic AIS.
+- [Finnish Port Calls & Congestion](https://apify.com/itulo/digitraffic-port-calls-marine) - Vessel arrivals, departures, berth ETA/ETD and per-port congestion summaries for Finnish ports, polled from Fintraffic Digitraffic marine open data (CC BY 4.0). Pay-per-event Apify Actor (Apify free credits apply); the raw API is free at digitraffic.fi.
 
 ### Information
 - [PurpleAir Air Quality Data](https://community.purpleair.com/t/new-api-dashboard/3981) - Developer API for accessing purple air sensor data.
@@ -151,6 +152,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
 - [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
+- [Finnish Grid & Reserve Signals](https://apify.com/itulo/fingrid-grid-signals) - Near-real-time Fingrid frequency, reserve-market prices, wind/solar forecasts and CO2 intensity from Fingrid open data (CC BY 4.0; needs a free Fingrid API key). Poll-based, pay-per-event Apify Actor (Apify free credits apply).
+- [Finland Weather Warnings & Baltic Marine Alerts](https://apify.com/itulo/fmi-weather-warnings-alerts) - FMI severe-weather, storm, wave and sea-level warnings (CAP) plus live station observations from FMI open data (CC BY 4.0). Poll-based, pay-per-event Apify Actor (Apify free credits apply).
 
 
 ### Sports

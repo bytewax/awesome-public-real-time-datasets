@@ -72,6 +72,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Jobven](https://jobven.com/docs/getting-started) - Job postings read directly from employer career pages and applicant tracking systems, with webhook events when a role opens, changes or closes. Free tier of 300 jobs a month, and one sample endpoint needs no key.
 - [CrustAPI](https://crustapi.com) - Live Google News, web search and Maps results as structured JSON, fetched on every request. Free tier of 3,000 credits per month, no credit card.
 - [LottoLens PH PCSO Draw Results](https://lottolensph.com/api/draws/latest) - Free, no-key JSON feed of independently compiled Philippine PCSO draw results, refreshed after scheduled draws are source-verified. Poll over HTTP; records include draw date, draw time, and source URL.
+- [China Hot-List Watch](https://ownly-network.github.io/china-news-feed-samples/deleted-today.json) - Free, no-key JSON of topics that dropped off the Weibo, Baidu, Zhihu, Toutiao and Bilibili hot-search lists in the last 24 hours while still trending, rebuilt about hourly from snapshots taken every few minutes. Each item has its list, peak rank, time on list and label.
 
 ### Health
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Live public biological-age competition dataset with athlete profiles, biomarker records, proof links, placements, and crowd-age fields. Free JSON over HTTP; no API key required.

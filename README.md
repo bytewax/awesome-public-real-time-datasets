@@ -156,3 +156,4 @@ The list is separated into Free and Paid and broken into subsections based on lo
 ### Sports
 - [Sports Livescores](https://www.thesportsdb.com/docs_pricing) - Developer API of TheSportsDB that gives you access to livescores
 - [Sportradar Sports Data](https://sportradar.com/media-tech/data-content/sports-data-api/) - Global live data of 80 sports, 500 sport leagues and 750k events a year (free 30 day trial available)
+- [Sports Odds API (Kambi sportsbooks)](https://apify.com/publicrecords/sports-odds-api) - Live odds from Kambi-powered sportsbooks (BetRivers, Unibet, Paf, Svenska Spel, ATG and more) via REST API or MCP, with every book's price and the best price per outcome; requires an Apify account

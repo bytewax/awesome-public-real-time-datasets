@@ -52,6 +52,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### Information
 - [Wikimedia SSE](https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams) Event Stream of recent changes to the wikimedia foundation pages.
+- [twtData X Trends](https://twtdata.com/twitter-trends/) - X (Twitter) trending topics by country and city, updated hourly on web pages with a dated archive of past days. No API key or sign-up.
 - [Seismic Data](https://www.seismicportal.eu/realtime.html) Seismic Portal provides a websocket interface to real-time seismic events.
 - [Open Weather API](https://openweathermap.org/api) - Current weather data available free at rate of 1 request per ~90 seconds (only first 1000 API calls per day are free).
 - [Clima Cell](https://docs.tomorrow.io/reference/realtime-weather) - Real-time weather data in a free or paid API.

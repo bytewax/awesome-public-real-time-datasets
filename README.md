@@ -96,6 +96,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Mockingbird by Tinybird](https://github.com/tinybirdco/mockingbird) - Open-source mock streaming data generator. Pairs well with EventSim which is already listed.
 - [SSE.dev](https://sse.dev/test) - Public SSE test endpoint with configurable intervals. Useful for streaming pipeline testing.
   - `https://sse.dev/test?interval=5000`
+- [File Formats Technical Matrix](https://kaijuconverter.com/formats) - Technical specification matrix and open reference dataset covering 201+ digital file formats, MIME types, magic bytes, and conversion routes.
 
 ### AI/ML
 - [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)

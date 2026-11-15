@@ -99,6 +99,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### AI/ML
 - [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)
+- [GPU Price Index](https://gpu-cloud-prices.pages.dev/data/) - Public on-demand and spot GPU cloud prices (H100, H200, A100, RTX 4090 and 130+ other models) from multiple providers as free, no-key JSON over HTTP (`https://gpu-cloud-prices.pages.dev/data/latest.json`, CORS enabled) plus an RSS feed, re-checked about hourly. Every offer carries its source URL and observation time. CC BY 4.0, with a daily snapshot on [Hugging Face](https://huggingface.co/datasets/ComputeTicks/gpu-cloud-prices).
 
 ### Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.

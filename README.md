@@ -8,6 +8,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ## Free
 
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP endpoint exposing structured North American live-music venue, accessibility, and booking-contact data (2,200+ venues).
+
 ### Finance/Crypto
  - [Coinbase Market Data](https://docs.cloud.coinbase.com/exchange/docs/websocket-overview) - Coinbase websocket to market data including level 2 orderbook data.
  - [Blockchain transactions](https://www.blockchain.com/api/api_websocket) - Provides real-time notifications about new transactions and blocks.

@@ -151,6 +151,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
 - [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
+- [JobsPipe](https://docs.jobspipe.dev) - Jobs-data API with 15.6M live postings from 30+ sources in one normalized schema, plus webhooks for created and closed jobs and a hosted OAuth MCP. Free plan is 1,000 one-time credits; paid plans start at $19.60/month.
 
 
 ### Sports

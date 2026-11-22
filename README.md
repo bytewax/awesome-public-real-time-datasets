@@ -108,6 +108,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [NHL Web API](https://github.com/Zmalski/NHL-API-Reference) - Undocumented JSON API behind NHL.com (`api-web.nhle.com/v1`) for live scores, schedules and play-by-play. No key; endpoints may change between seasons.
 - [football-data.org](https://www.football-data.org/) - REST API for fixtures, results and standings across 12 major football competitions on a permanent free tier (10 calls/min, delayed scores); live scores on paid tiers.
 - [Betfair Exchange Stream API](https://developer.betfair.com/exchange-api/) - Push-based stream of betting exchange prices across football, tennis, horse racing and more. Free delayed key for development; requires a Betfair account.
+- [AsianScore Sports API & xG Ledger](https://asianscore.com/ai.html) - Real-time football and NBA live scores, match win probabilities, and pre-kickoff SHA-256 verifiable prediction ledger via open JSON (`https://asianscore.com/api/widget/summary`). No key required; bulk CSV/JSONL snapshots at [asianscore-xg-ledger-dataset](https://github.com/AIYIXIU/asianscore-xg-ledger-dataset).
 - [The Odds API](https://the-odds-api.com/) - Live and upcoming odds from multiple bookmakers across many sports via REST. Free tier of 500 requests per month.
 
 ### Other

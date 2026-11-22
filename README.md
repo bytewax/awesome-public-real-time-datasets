@@ -151,6 +151,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Reuters News API](https://reutersagency.com/content-delivery-platforms/api-integrations/) - Low latency news feed from Reuters
 - [webz.io](https://webz.io/solutions/media-monitoring) - webz.io provides API with real-time information from thousands of news sites, blogs, and discussion forums.
 - [Mediastack](https://mediastack.com) - JSON API delivering worldwide news, headlines and blog articles in real-time 
+- [1322](https://1322.io/docs) - Real-time posts from the accounts you choose on X (Twitter), Truth Social, Instagram, YouTube, TikTok, Binance Square, FOMO and 15+ news outlets, as JSON over a separate WebSocket feed for each source, with REST management and signed webhooks. A one-day evaluation is available on request, reviewed by the team, no card.
 
 
 ### Sports

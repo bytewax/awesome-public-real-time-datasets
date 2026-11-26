@@ -109,6 +109,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [football-data.org](https://www.football-data.org/) - REST API for fixtures, results and standings across 12 major football competitions on a permanent free tier (10 calls/min, delayed scores); live scores on paid tiers.
 - [Betfair Exchange Stream API](https://developer.betfair.com/exchange-api/) - Push-based stream of betting exchange prices across football, tennis, horse racing and more. Free delayed key for development; requires a Betfair account.
 - [The Odds API](https://the-odds-api.com/) - Live and upcoming odds from multiple bookmakers across many sports via REST. Free tier of 500 requests per month.
+- [PinnFeed](https://pinnfeed.io/?utm_source=github.com&utm_medium=referral&utm_campaign=directory-202611) - Live and prematch Pinnacle betting odds streamed over WebSocket (snapshot, then deltas) and REST, with a no-vig fair price on every outcome and closing-odds history. Free tier: REST with a 30-second delay, no card; the WebSocket is a paid tier.
 
 ### Other
 - [US National Parks Live Status (Park Atlas)](https://theparkatlas.com/) - Live alerts, entrance fees, reservation requirements, webcams, and conditions for all 474 US National Park System units, aggregated nightly from official federal APIs. Bulk CSV snapshots: [park-atlas-data](https://github.com/kirkwood-justin/park-atlas-data). No key required.

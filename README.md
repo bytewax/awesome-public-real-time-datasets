@@ -99,6 +99,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### AI/ML
 - [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)
+- [Upcurrent](https://upcurrent.dev/data.html) - Fastest-rising AI repos, models and papers from 17 sources (GitHub, Hugging Face, arXiv, Hacker News and more), refreshed every 30 minutes. Free JSON over HTTP, no key, CORS on, CC BY 4.0.
 
 ### Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - Free HTTP API for current 2026 World Cup match-day fixtures, next-match polling, RSS, and calendar feeds. No API key required.
